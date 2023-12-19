@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "infinity-immo-clients-app",
+    "name": "Infinity Immo Client",
     "slug": "infinity-immo-clients-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.geneses.infinityimmoclientsapp"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +26,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "db0aba0a-112b-45a2-acff-d2c7f5136526"
+      }
+    },
+    "owner": "geneses"
   }
 }
