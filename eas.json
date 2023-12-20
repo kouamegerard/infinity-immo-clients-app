@@ -7,7 +7,7 @@
       "developmentClient": true,
       "distribution": "internal",
       "android": {
-        "distribution": "internal",
+        "distribution": "internal"
       },
       "ios": {
         "simulator": true
