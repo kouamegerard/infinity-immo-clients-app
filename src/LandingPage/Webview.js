@@ -2,8 +2,8 @@
 import React from 'react';
 import { WebView } from 'react-native-webview';
 
-const WebViewScreen = ({ route }) => {
-  const { url } = route.params;
+const WebViewScreen = () => {
+  const url = "your_url_here";
 
   return (
     <WebView

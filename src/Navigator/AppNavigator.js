@@ -2,21 +2,12 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import WebViewScreen from '../LandingPage/WebViewScreen';
+import Webview from '../LandingPage/Webview';
 
-const Stack = createStackNavigator();
 
 const AppNavigator = () => {
   return (
-    <NavigationContainer>
-      <Stack.Navigator initialRouteName="WebView">
-        <Stack.Screen
-          name="WebView"
-          component={WebViewScreen}
-          options={{ title: 'Website to AppNavigator' }}
-        />
-      </Stack.Navigator>
-    </NavigationContainer>
+    <Webview />
   );
 };
 
