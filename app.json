@@ -2,27 +2,34 @@
   "expo": {
     "name": "Infinity Immo Client",
     "slug": "infinity-immo-clients-app",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#00334d"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.geneses.infinityimmoclientsapp"
+      "bundleIdentifier": "com.geneses.infinityimmoclientsapp",
+      "buildNumber": "1.0.3",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Infinity Immo veut avoir accès à votre camera pour capturer des photos sur la plateforme...",
+        "NSPhotoLibraryUsageDescription": "Infinity Immo veut avoir accès à votre galerie photo pour uploader des photos sur la plateforme..."
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#00334d"
+      },
+      "package": "com.geneses.infinityimmoclientsapp",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
